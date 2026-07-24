@@ -1,8 +1,25 @@
 aid: boundless
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boundless.png
 name: Boundless
-description: 'Boundless is a company surfaced as a portfolio company of foundry-group, seedcamp and added
-  to the API Evangelist network as a stub for enrichment. Sector: immigration-tech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Boundless is a Seattle-based technology-enabled immigration company that pairs an
+  intuitive online platform with licensed immigration attorneys to help individuals and businesses
+  navigate U.S. immigration. Its consumer products cover family-based green cards, marriage and fiancé
+  (K-1) visas, naturalization and citizenship, and employment-based visas such as H-1B, EB-1, O-1, and
+  E-2, while its business offering adds corporate case management, workflow automation, employee
+  engagement, compliance management, HR-system integration, and global mobility support for
+  immigration teams. Boundless is backed by Foundry Group and Seedcamp. No public developer API,
+  documentation portal, or SDKs are published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/boundless/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Immigration Tech
+- Immigration
+- Legal Tech
+- Visas
+- Green Cards
+- Citizenship
+- Global Mobility
+- Case Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/boundless-domain-security.yml
+- type: TrustCenter
+  url: security/boundless-trust-center.yml
+- type: Compliance
+  url: https://www.boundless.com/security
 - type: Website
   url: https://www.boundless.com
+- type: Blog
+  url: https://www.boundless.com/blog
+- type: Support
+  url: https://www.boundless.com/contact
+- type: Login
+  url: https://www.boundless.com/login
+- type: TermsOfService
+  url: https://www.boundless.com/terms
+- type: PrivacyPolicy
+  url: https://www.boundless.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

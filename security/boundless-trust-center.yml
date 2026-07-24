@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+source: https://www.boundless.com/security
+url: https://www.boundless.com/security
+certifications:
+- SOC 2
+evidence:
+- source: https://www.boundless.com/security
+  quote: "Our recent SOC 2 compliance certification marks a significant milestone,
+    elevating our already robust commitment to privacy and security to unprecedented
+    levels."
+  keywords:
+  - soc 2
+  - security
+  - privacy
+notes: >-
+  Boundless publishes a customer-facing security page describing SSL encryption in
+  transit, private networks for data at rest, compromised-password checks, and
+  attorney-client privilege. SOC 2 is the only named third-party certification. No
+  vulnerability-disclosure / bug-bounty program or dedicated security contact is
+  published (general contact only: be@boundless.com).

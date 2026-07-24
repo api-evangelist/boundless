@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.boundless.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 15 07:51:09 2026 GMT
+  hsts: false
+domains:
+- domain: boundless.com
+  dnssec: true
+  caa:
+  - 0 issue "amazon.com"
+  - 0 issue "comodoca.com"
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "sni.cloudflaressl.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
